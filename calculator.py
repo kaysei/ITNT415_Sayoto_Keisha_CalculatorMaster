@@ -6,7 +6,7 @@ def subtract(a, b):
 
 
 def multiply(a, b):
-    pass
+    return round(a * b, 10)
 
 
 def divide(a, b):
