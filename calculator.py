@@ -1,6 +1,5 @@
 def add(a, b):
-    return a + b
-
+    return round(a + b, 10)
 
 def subtract(a, b):
     pass
