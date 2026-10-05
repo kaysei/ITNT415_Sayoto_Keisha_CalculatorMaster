@@ -2,7 +2,7 @@ def add(a, b):
     return round(a + b, 10)
 
 def subtract(a, b):
-    pass
+    return a - b
 
 
 def multiply(a, b):
