@@ -10,7 +10,9 @@ def multiply(a, b):
 
 
 def divide(a, b):
-    return a / b
+    if b == 0:
+        return "Error: Division by zero is not allowed."
+    return round(a / b, 10)
 
 
 def get_number(prompt):
